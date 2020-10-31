@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E2E2E2;
+}
+.container{
+    max-width: 1200px;
+    background-color: #E3F8F3;
+    margin: 0 auto;
+}
+
+/*Header part start*/
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border: solid 2px white;
+    border-radius: 50%;
+    margin: 10px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+h1, h3{
+    color: #008490;
+    
+    
+}
+.contact{
+    float: right;
+    padding: 30px;
+    font-size: 18px;
+}
+.contact p a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact p a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+/*Header part end*/
+
+hr{
+    border: solid black 3px;
+    margin: 5px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/*Personal Information part start*/
+.personal-section{
+    margin: 10px;
+}
+.div-left{
+    float: left;
+    width: 30%;
+    color: #008490;
+    padding-left: 10px;
+
+}
+.left{
+    float: left;
+    width: 50%;
+    clear: right;
+}
+.div-right{
+    float: left;
+    width: 70%;
+    font-size: 20px;
+    color: #008490;
+}
+.right{
+    float: left;
+    width: 40%;
+}
+/*Personal Information part end*/
+
+.common-hr{
+    border: solid black 2px;
+    margin: 5px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/*Objective part start*/
+.justify{
+    text-align: justify;
+    padding-right: 10px;
+}
+/*Objective part end*/
+
+/*Education part start*/
+.left1{
+    float: left;
+    width: 50%;
+    clear: right;
+}
+
+.right1{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 10px;
+}
+/*Education part end*/
+
+/*Skill part start*/
+.left2{
+    padding-left: 18px;
+}
+.right2{
+    padding-left: 58px;
+}
+/*Skill part end*/
+
+/*Footer part start*/
+.footer{
+    background-color: black;
+    text-align: center;
+    height: 88px;
+    margin-top: -5px;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    border-right:1px solid #605B5B;
+    border-left:1px solid #2B2A2A;
+}
+.footer a:hover{
+    background-color: orange;
+}
+.footer p{
+    color: white;
+    margin-top: 13px;
+
+}
+/*Footer part start*/
